@@ -111,6 +111,7 @@ h3 {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
+    row-gap: 30px;
 }
 
 .recipe_img {
