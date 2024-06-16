@@ -172,6 +172,10 @@ footer a:visited {
         display: block;
     }
 
+    .column_1, .column_2 {
+        padding-bottom: 30px;
+    }
+
     .recipe_section {
         display: block;
     }
