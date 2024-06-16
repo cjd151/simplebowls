@@ -23,7 +23,7 @@
 
 h1 {
     text-align: center;
-    color: var(--light);
+    color: white;
     font-family: 'Franklin Gothic Medium';
     font-weight: bold;
     font-size: 3rem;
@@ -87,7 +87,7 @@ h2 {
 .description:first-letter {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--highlight2);
+    color: var(--dark);
     font-family: Times;
 }
 
@@ -165,4 +165,44 @@ footer a:visited {
 .social_media_logo {
     width: 20px;
     margin-right: 5px;
+}
+
+@media (max-width:1000px) {
+    main {
+        display: block;
+    }
+
+    .recipe_section {
+        display: block;
+    }
+
+    .recipe_section figcaption {
+        padding-bottom: 30px;
+    }
+
+    .email {
+        width: 50vw;        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inline {
+        display: block;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:300px) {
+    .recipe_img {
+        width: 80vw;
+    }
+
+    footer input:not(.submit) {
+        width: 70vw;
+        margin-left: -30px;
+    }
+
+    footer span {
+        display: block;
+    }
 }
